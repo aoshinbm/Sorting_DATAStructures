@@ -31,14 +31,12 @@ public class BinarySearch {
 
         public static void main(String []args)
         {
-            String[] arrayString = new String[10];
-            int n,i;
+            String[] arrayString = new String[5];
+            int i;
             String find;
             Scanner sc=new Scanner(System.in);
-            System.out.println("how many words you want to enter:");
-            n= sc.nextInt();
             System.out.println("Enter words :");
-            for (i=1; i<=n; i++) {
+            for (i=0; i<arrayString.length; i++) {
                 arrayString[i]= sc.nextLine();
             }
             System.out.println("Which word you want to find");
